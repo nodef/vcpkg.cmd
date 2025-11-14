@@ -1,0 +1,31 @@
+{
+  "name": "vcpkg.cmd",
+  "version": "0.0.0",
+  "description": "C++ Library Manager for Windows, Linux, and MacOS; Microsoft (2016).",
+  "main": "index.cmd",
+  "scripts": {
+    "test": "exit"
+  },
+  "keywords": [
+    "c",
+    "windows",
+    "package-manager",
+    "visual-studio",
+    "cmake",
+    "packages",
+    "cplusplus",
+    "cpp",
+    "libraries",
+    "vcpkg"
+  ],
+  "license": "MIT",
+  "author": "wolfram77@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/vcpkg.cmd.git"
+  },
+  "homepage": "https://github.com/nodef/vcpkg.cmd#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/vcpkg.cmd/issues"
+  }
+}
