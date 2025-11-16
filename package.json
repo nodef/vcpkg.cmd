@@ -1,6 +1,6 @@
 {
   "name": "vcpkg.cmd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "C++ Library Manager for Windows, Linux, and MacOS; Microsoft (2016).",
   "main": "vcpkg.exe",
   "bin": {
