@@ -11,7 +11,8 @@ if "%errorlevel%" neq "0" (
   echo Git is not installed. Please install Git and ensure it is in your PATH.
   exit /b 1
 )
-git clone %REPO% "%TEMP_DIR%" --depth 1
+git clone --depth 1 "%REPO%" "%TEMP_DIR%"
+del /f "vcpkg.exe" >nul 2>&1
 :: 2. Move the contents of the temp folder to the current directory
 robocopy /? >nul 2>&1
 if "%errorlevel%"=="0" (

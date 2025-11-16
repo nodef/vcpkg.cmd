@@ -53,10 +53,11 @@ tab completion to your terminal](https://learn.microsoft.com/vcpkg/commands/inte
 
 # Installation
 
-To install vcpkg on Windows, run:
+To install vcpkg, run:
 
 ```bash
-npm i -g vcpkg.cmd
+npm i -g vcpkg.sh   # On Linux / macOS
+npm i -g vcpkg.cmd  # On Windows
 ```
 
 This installs the vcpkg command globally using npm, with telemetry disabled by default.
@@ -161,4 +162,4 @@ Read more about vcpkg telemetry at [https://learn.microsoft.com/vcpkg/about/priv
 
 
 [![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
-![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/vcpkg.cmd)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/vcpkg.sh)

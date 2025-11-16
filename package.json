@@ -1,13 +1,13 @@
 {
-  "name": "vcpkg.cmd",
-  "version": "0.1.1",
+  "name": "vcpkg.sh",
+  "version": "0.2.2",
   "description": "C++ Library Manager for Windows, Linux, and MacOS; Microsoft (2016).",
-  "main": "vcpkg.exe",
+  "main": "vcpkg",
   "bin": {
-    "vcpkg": "vcpkg.exe"
+    "vcpkg": "vcpkg"
   },
   "scripts": {
-    "install": "install.cmd",
+    "install": "bash install.sh",
     "test": "exit"
   },
   "keywords": [
@@ -26,10 +26,10 @@
   "author": "wolfram77@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nodef/vcpkg.cmd.git"
+    "url": "git+https://github.com/nodef/vcpkg.sh.git"
   },
-  "homepage": "https://github.com/nodef/vcpkg.cmd#readme",
+  "homepage": "https://github.com/nodef/vcpkg.sh#readme",
   "bugs": {
-    "url": "https://github.com/nodef/vcpkg.cmd/issues"
+    "url": "https://github.com/nodef/vcpkg.sh/issues"
   }
 }
